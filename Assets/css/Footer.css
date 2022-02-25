@@ -1,0 +1,136 @@
+/*Footer*/
+.footer {
+    position: relative;
+    height: 800px;
+
+    margin-top: 140px;
+    margin-left: 0;
+    padding-top: 20px;
+    left: 0px;
+    background-color: #0f1830;
+    align-items: normal;
+    width: 100%;
+    z-index: 0;
+    top: 20%;
+}
+
+.footer-logo img {
+    padding-left: 10px;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.footer-logo_title {
+    display: inline-block;
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+    padding-bottom: 30px;
+}
+
+.footer-logotext {
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+    color: white;
+}
+
+
+
+
+
+.visitor-accordion {
+    display: flex;
+}
+
+.list {
+    justify-content: center;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    opacity: .7;
+}
+
+.nav__link:hover {
+    color: #243151;
+    transition: all .7s;
+}
+
+.copyright {
+    color: white;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.registred {
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.footer_icons {
+    position: absolute;
+    top: 92%;
+}
+
+.icons {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+}
+
+
+/* Footer Wrapper */
+.footer_wrapper {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.footer_wrapper_title {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+
+    margin-top: 30px;
+}
+
+.footer_wrapper_btn_each {
+    position: relative;
+    border-radius: 20px;
+    padding: 20px 70px;
+
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.footer_wrapper_btn {
+    padding-top: 30px;
+    opacity: .3;
+}
+
+.footer_wrapper_btn1{
+    background: white;
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: all .6s;
+}
+
+.footer_wrapper_btn1:hover{
+    opacity: 0.8;
+    color: #364a7c;
+}

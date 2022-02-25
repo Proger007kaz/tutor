@@ -1,0 +1,36 @@
+
+
+.Box {
+    font-family: 'Roboto Condensed', "Javanese Text", sans-serif;
+    margin-top: 140px;
+    margin-left: 10%;
+    padding-top: 30px;
+    left: 11.2%;
+    display: grid;
+    align-items: normal;
+    justify-content: center;
+    width: 80%;
+    position: static;
+    z-index: 2;
+    top: 20%;
+    border: 2px darkgray;
+}
+
+
+
+.Box1 {
+    font-family: 'Roboto Condensed', "Javanese Text", sans-serif;
+    margin-top: 140px;
+    margin-left: 10%;
+    padding-top: 30px;
+    left: 11.2%;
+    background-color: darkgoldenrod;
+    display: grid;
+    align-items: normal;
+    justify-content: center;
+    width: 80%;
+    position: static;
+    z-index: 2;
+    top: 20%;
+    border: 2px darkgray;
+}

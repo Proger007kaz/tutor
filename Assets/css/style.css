@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background: white no-repeat center;
+    background-size: 100%;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* intro */
+.intro {
+    position: relative;
+    padding-top: 200px;
+    width: 100%;
+    height: 90vh;
+
+    background: rgba(0, 0, 0, .65) url("../Images/pexels-peter-olexa-4012966.jpg") center no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    filter: brightness(2);
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__subwords {
+    font-size: 20px;
+    font-family: 'Roboto',
+        sans-serif;
+    color: white;
+
+    padding-bottom: 50px;
+}
+
+.intro__mainwords {
+    font-size: 38px;
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* Button */
+
+.intro__btn {
+    position: relative;
+    background: black;
+    border-radius: 35px;
+    padding: 20px 80px;
+
+    font-size: 25px;
+    font-family: 'Roboto',
+        sans-serif;
+    color: white;
+    text-decoration: none;
+    opacity: 45%;
+    transition: .1s linear;
+}
+
+.intro__btn__1 {
+    background: #080F21;
+}
+
+
+.intro__btn__1:hover {
+    opacity: 50%;
+    color: white;
+    background: #0f1830;
+}
+
+.intro__btn__2:hover {
+    opacity: 50%;
+    color: white;
+}
+
+
+.btn {
+    display: inline-block;
+    margin: 0 32px;
+    padding: 0 0 !important;
+}
+
+.btn-check:active+.btn-secondary,
+.btn-check:checked+.btn-secondary,
+.btn-secondary.active,
+.btn-secondary:active {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.btn-secondary {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+
+/* Dropdown */
+
+
+.dropdown-menu {
+    font-size: 0.9rem !important;
+    background-color: rgba(0, 0, 0, .35) !important;
+    padding-left: 0px !important;
+    padding-top: 23px !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+}
+
+.dropdown-item,
+dropdown-item:active {
+    outline: none !important;
+}
+
+
+
+
+/* Carousel */
+
+.carousel_title {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    margin-bottom: 50px;
+
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.carousel-img {
+    height: 300px;
+    width: 200px;
+
+    border-radius: 3%;
+    margin: 20px 0;
+}
+
+.carousel-img-title {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+}
+
+.carousel__subTitle {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+
+    padding-top: 12px;
+    text-align: center;
+}
+
+.carousel-text {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    font-stretch: expanded;
+
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Selling proporties wrapper */
+
+.selling-proposition-wrapper {
+    position: relative;
+    justify-content: space-between;
+    margin-top: 100px;
+
+    height: 450px;
+}
+
+.selling-proposition-wrapper-title {
+    font-size: 40px;
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 700;
+}
+
+
+.selling-proposition-wrapper-blocks {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 75px;
+}
+
+.selling-proposition-wrapper-each-block {
+    margin: 0 25px;
+}
+
+.selling-proposition-wrapper-each-block-title {
+    display: inline-block;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.selling-proposition-wrapper-each-block-logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.selling-proposition-wrapper-each-block-text {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+/* Recommendations wrapper */
+.recommend_wrapper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.block__images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_each_text {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.wrapper_each_block {
+    width: 450px;
+    height: 250px;
+    overflow: hidden;
+    display: inline-block;
+
+    margin: 0 20px;
+    margin-bottom: 60px;
+}
+
+.recommend_wrapper_title{
+    font-size: 40px;
+    font-weight: 700;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.wrapper_each_img {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("https://lh3.googleusercontent.com/78lpTrBnfcdB_fy39lEuZomM73GMBTa-l9XFe_xtFUrlGgj-qQ0Ozo-JyslqDYpNvl9g-bNR01_Xxf9VgeqxvaW2=w640-h400-e365-rj-sc0x00ffffff");
+    background-position: center;
+    background-size: cover;
+
+    transition: transform ease 0.3s;
+}
+
+.wrapper_each_img:hover {
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Freelancer's wrapper */
+
+.freelancers-wrapper {
+    margin-top: 100px;
+}
+
+.freelancers-wrapper-title {
+    font-family: 'Comfortaa';
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.freelancers-wrapper-image {
+    padding-top: 30px;
+    margin: 0 500px;
+    width: 400px;
+    height: 300px;
+
+    border-radius: 5%;
+}
+
+.freelancer-wrapper-subtitle {
+    padding-top: 10px;
+
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    margin: 0 660px;
+}
+
+.freelancer-wrapper-text {
+    padding-top: 10px;
+    margin: 0 440px;
+    padding-left: 65px;
+
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    text-align: center;
+}
+
+.freelancers-wrapper-ICON {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #525B25;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+/* HR */
+
+.hr {
+    border-top: 3px solid #525B25;
+}
+
+.selling-proposition-wrapper-hr {
+    border-top: 3px solid black;
+    margin-top: 80px;
+}
+
+/* JS styles */
+
+.colorScrolled {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    font-stretch: expanded;
+
+    padding-top: 60px;
+    color: #375299;
+}

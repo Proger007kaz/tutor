@@ -1,0 +1,33 @@
+.info{
+    color: grey;
+    border: 3px;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 13px;
+    width:90%;
+    margin: 2% auto;
+    cursor: pointer;
+}
+.accountimg{
+    width: 60%;
+    min-width: 150px;
+    height: auto;
+    border-radius: 20%;
+    margin: 4% 19%;
+}
+.menu li:hover{
+    opacity: 0.8;
+}
+.accountinfo{
+    position: relative;
+    top: 30px;
+}

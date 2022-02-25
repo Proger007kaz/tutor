@@ -1,0 +1,250 @@
+.login-form{
+    display:none;
+}
+.inputpole{
+    padding: 5% 1%;
+}
+.inputpole input {
+    font-size: 16px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    padding: 2% 2%;
+    border: 20px;
+    margin:auto;
+    border: 2px solid;
+    outline: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+.inputpole .button {
+    width:30%;
+    height:27px;
+    background-color: green;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 5px;
+}
+.fa {
+    font-size: 160%;
+    text-decoration: none;
+    margin-left: 9.5%;
+    cursor: pointer;
+}
+.fa:hover{
+    opacity:0.7;
+}
+@media(min-width:1160px) and (max-width:1400px){
+    .accountblank {
+        width: 30%;
+        min-width: 450px;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        left: 80%;  
+        top: 59%;
+        border: 5px solid;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8) inset;
+        z-index: 1;
+    }
+    .reg-image{
+        height:100%;
+        width:100%;
+    }
+    .ins1 {
+        display: none;
+        width: 30%;
+        height: 15%;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        border: 5px solid;
+        color: white;
+        z-index: 1;
+        top: 50%;
+        left: 40%;
+        font-size:30%;
+    }
+
+    .ins2 {
+        display: none;
+        width: 98%;
+        height: 92%;
+        position: relative;
+        margin-left: 1%;
+        margin-top: 1%;
+        border: 1px solid;
+        color: white;
+        padding-top: 5%;
+        z-index: 1;
+    }
+    .ins3 {
+        display: none;
+        height: 15%;
+        max-width: 750px;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        border: 5px solid;
+        color: white;
+        z-index: 1;
+        left: 30%;
+        top: 23%;
+        width: 60%;
+        height: 20%;
+    }
+
+    .ins4 {
+        display: none;
+        width: 98%;
+        height: 92%;
+        position: relative;
+        margin-left: 1%;
+        border: 1px solid;
+        color: white;
+        padding-top: 5%;
+        z-index: 1;
+        margin-top: 0.65%
+    }
+}
+@media(min-width:1400px){
+    .accountblank {
+        width: 30%;
+        min-width: 450px;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        left: 84%;
+        top: 54%;
+        border: 5px solid;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8) inset;
+        z-index: 1;
+    }
+    .reg-image {
+        height: 67%;
+        width: 67%;
+        border-bottom-right-radius: 50%;
+        margin-bottom: 7%;
+    }
+    .ins1 {
+        display: none;
+        width: 30%;
+        height: 15%;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        border: 5px solid;
+        color: white;
+        z-index: 1;
+        left: 45%;
+        top: 45%;
+    }
+
+    .ins2 {
+        display: none;
+        width: 98%;
+        height: 92%;
+        position: relative;
+        margin-left: 1%;
+        margin-top: 1%;
+        border: 1px solid;
+        color: white;
+        padding-top: 5%;
+        z-index: 1;
+    }
+    .ins3 {
+        display: none;
+        width: 30%;
+        height: 15%;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        border: 5px solid;
+        color: white;
+        z-index: 1;
+        left: 35%;
+        top: 22%;
+        width: 60%;
+        height: 20%;
+    }
+
+    .ins4 {
+        display: none;
+        width: 98%;
+        height: 92%;
+        position: relative;
+        margin-left: 1%;
+        border: 1px solid;
+        color: white;
+        padding-top: 5%;
+        z-index: 1;
+        margin-top: 0.65%
+    }
+}
+@media(min-width:200px) and (max-width:1160px){
+    .reg-image {
+        display: none;
+    }
+    .accountblank {
+        width: 450%;
+        max-width: 450px;
+        min-width:400px;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        left: 50%;
+        top: 85%;
+        border: 5px solid;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8) inset;
+        z-index: 1;
+    }
+    .ins1 {
+        display: none;
+        width: 30%;
+        height: 15%;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        border: 5px solid;
+        color: black;
+        z-index: 1;
+        top: 25%;
+        left: 50%;
+    }
+
+    .ins2 {
+        display: none;
+        width: 98%;
+        height: 92%;
+        position: relative;
+        margin-left: 1%;
+        margin-top: 1%;
+        border: 1px solid;
+        color: black;
+        padding-top: 5%;
+        z-index: 1;
+    }
+    .ins3 {
+        display: none;
+        width: 30%;
+        height: 15%;
+        position: absolute;
+        transform: translate(-50%, -40%);
+        border: 5px solid;
+        color: black;
+        z-index: 1;
+        left: 50%;
+        top: 165%;
+        width: 60%;
+        height: 20%;
+    }
+
+    .ins4 {
+        display: none;
+        width: 98%;
+        height: 92%;
+        position: relative;
+        margin-left: 1%;
+        border: 1px solid;
+        color: black;
+        padding-top: 5%;
+        z-index: 1;
+        margin-top: 0.65%
+    }
+}
